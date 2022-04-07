@@ -33,16 +33,28 @@ div{
     text-align: center;
 }
 
-.titulos-table{
+.titulos-form{
     color: rgb(0, 89, 255);
     font-size: 18px;
-    text-align: center;
 }
 
-.textos-table{
+input{
     text-align:center;
     font-size:15px;
+    border-radius: 2rem;
+    border-bottom: 2rem;
+    border-right: 2rem;
+    border-left: 2rem;
+    border-top: 2rem;
     color:rgb(0, 0, 0);
+}
+
+#nome{
+    width: 300px;
+}
+
+#email{
+    width: 300px;
 }
 
 .container{
@@ -51,11 +63,15 @@ div{
     height: 100%;
 }
 
+.form{
+    margin-left: 20px;
+}
+
 .btn-button{
     background: rgb(0, 89, 255);
     color: white;
     height: 2rem;
-    width: 8rem;
+    width: 5rem;
     border-radius: 2rem;
     border-bottom: 2rem;
     border-right: 2rem;
@@ -63,7 +79,7 @@ div{
     border-top: 2rem;
     margin-top: 3rem;
     margin-left: 2rem;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .btn-button:focus{

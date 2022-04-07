@@ -7,31 +7,22 @@
     <title>Notas</title>
 
     <link rel="stylesheet" type="text/css" href="../css/index.css" />
-    
-    <style>
-        td{
-            text-align:center;
-        }
-    </style>
 
-    
 
 </head>
 <body id="page-top">
-    <nav class="navbar" id="page-header">
-        <h1 class="titulos" style="margin-left: 15px;">Desenvolvimento web <br>2022.1</h1>
+    <nav class="nav-bar" id="page-header">
+        <h1 class="titulos-logo">Desenvolvimento web <br>2022.1</h1>
     </nav>
-    <div id="page-sub-header" style="border: 1px #000000 solid; text-align: center;"> 
-        <h2 class="textos-site">Notas</h2>
+    <div class="titulos" id="page-sub-header"> 
+        <h1>Notas</h1>
     </div>
-    <div class="formulario" id="table">
+    <div class="container" id="table">
         <table border="black" align="center">
-            <br>
-            <br>
-            <thead>
+            <thead class="titulos-table">
                 <tr>
-                    <th>Matricula</th>
-                    <th>Aluno</th>
+                    <th>MATRICULA</th>
+                    <th>ALUNO</th>
                     <th>AV1</th>
                     <th>AV2</th>
                     <th>AVD</th>
@@ -39,7 +30,7 @@
                     <th>AVDS</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="textos-table">
                 <tr>
                     <td>000001</td>
                     <td>Erveson Araújo</td>
@@ -78,9 +69,7 @@
                 </tr> 
             </tbody>
         </table>
-    </div>
-    <div id="button" style="margin-top: 20px;">
-    <a href="frequencia.php"><button class="btn-button">Ir para Frequências</button></a>
+        <a href="frequencia.php"><button class="btn-button">Ir para Frequências</button></a>
     </div>
 </body>
 </html>
