@@ -1,0 +1,36 @@
+body{
+    background: rgb(203, 233, 250);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+div{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    font-size: 30px;
+}
+
+.container1{
+    background-color: red;
+    margin-top: -5px;
+    
+}
+
+.container2{
+    background-color: yellow;
+    margin-left: 1215px;
+    margin-top: -150px;
+}
+
+.container3{
+    background-color: rgb(1, 138, 1);
+    margin-top: 365px;
+}
+
+.container4{
+    background-color:rgb(25, 0, 255);
+    margin-left: 1215px;
+    margin-top: -150px;
+}
